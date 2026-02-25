@@ -21,7 +21,7 @@ Para que el sistema funcione, necesitamos preparar el "motor" (backend).
 
 ---
 
-## 🛠️ PASO 2: Gestión del Inventario
+## 🎮 PASO 2: Gestión del Inventario
 Una vez dentro, verás la terminal de control con un **reloj en tiempo real** en la cabecera.
 
 ### 2.1 Registrar una herramienta nueva
@@ -38,7 +38,7 @@ En el panel de la derecha (**➕ Nueva Herramienta**):
 
 ---
 
-## 📈 PASO 3: Operación y Mantenimiento Técnico
+## 🛠️ PASO 3: Operación y Mantenimiento Técnico
 Aquí es donde el sistema ayuda a prevenir fallos y alargar la vida de tus activos.
 
 1.  **Registrar Uso:** Cada vez que se use la herramienta, pulsa el botón verde **"Recordar Uso (-1 ciclo)"**.
@@ -51,7 +51,7 @@ Aquí es donde el sistema ayuda a prevenir fallos y alargar la vida de tus activ
 
 ---
 
-## 📈 PASO 4: Analítica y Funciones "Enterprise"
+## 📊 PASO 4: Analítica y Funciones "Enterprise"
 Diseñado para la toma de decisiones por parte de los responsables de planta.
 
 1.  **Dashboard de Analítica:** 
