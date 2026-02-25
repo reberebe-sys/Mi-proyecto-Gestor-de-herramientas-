@@ -1,49 +1,49 @@
-# Gestor de Herramientas v2.1 Enterprise
+# 🛠️ Gestor de Herramientas v2.1 Enterprise
 
 [![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
 [![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-Gestor de Herramientas es una solucion industrial avanzada para la monitorizacion en tiempo real, trazabilidad y mantenimiento preventivo de utillajes y herramientas de taller. Disenado bajo una estetica Dark Engineering, combina potencia analitica con una experiencia de usuario intuitiva y moderna.
+**Gestor de Herramientas** es una solución industrial avanzada para la monitorización en tiempo real, trazabilidad y mantenimiento preventivo de utillajes y herramientas de taller. Diseñado bajo una estética *Dark Engineering*, combina potencia analítica con una experiencia de usuario intuitiva y moderna.
 
-**[Ver Demo Online (GitHub Pages)](https://reberebe-sys.github.io/Mi-proyecto-Gestor-de-herramientas-/)**
+🚀 **[Ver Demo Online (GitHub Pages)](https://reberebe-sys.github.io/Mi-proyecto-Gestor-de-herramientas-/)**
 
 ---
 
-## Caracteristicas Principales
+## ✨ Características Principales
 
-### Mapa Interactivo de Almacen
-Visualizacion dinamica tipo Grid de las estanterias (Posiciones A1-D6).
-- **Semaforo Industrial:** Codigo de colores automatico (Verde, Naranja, Rojo) basado en el desgaste.
-- **Alertas Criticas:** Efecto de pulso visual cuando una herramienta requiere atencion inmediata.
-- **Smart Tooltips:** Informacion instantanea al pasar el puntero.
+### 📍 Mapa Interactivo de Almacén
+Visualización dinámica tipo *Grid* de las estanterías (Posiciones A1-D6).
+- **Semáforo Industrial:** Código de colores automático (Verde, Naranja, Rojo) basado en el desgaste.
+- **Alertas Críticas:** Efecto de pulso visual cuando una herramienta requiere atención inmediata.
+- **Smart Tooltips:** Información instantánea al pasar el puntero.
 
-### Smart Analytics & Dashboards
-- **KPI de Salud Global:** Indice porcentual del estado de todo el inventario.
-- **Tendencias de Desgaste:** Visualizacion de barras sobre el uso acumulado.
-- **Ranking de Rotacion:** Identificacion de las herramientas con mayor carga de trabajo.
+### 📈 Smart Analytics & Dashboards
+- **KPI de Salud Global:** Índice porcentual del estado de todo el inventario.
+- **Tendencias de Desgaste:** Visualización de barras sobre el uso acumulado.
+- **Ranking de Rotación:** Identificación de las herramientas con mayor carga de trabajo.
 
-### Gestion de Ciclo de Vida
+### ⚙️ Gestión de Ciclo de Vida
 - **Registro de Uso:** Un solo clic para trackear cada ciclo de trabajo.
-- **Mantenimiento Tecnico:** Boton de reset para afilados o reparaciones con registro en el historial.
-- **Auditoria (Logs):** Trazabilidad completa con marcas de tiempo para cada accion.
+- **Mantenimiento Técnico:** Botón de *reset* para afilados o reparaciones con registro en el historial.
+- **Auditoría (Logs):** Trazabilidad completa con marcas de tiempo para cada acción.
 
-### Digitalizacion & Exportacion
-- **Generador de QR:** Creacion de etiquetas unicas para identificacion fisica.
-- **Reportes CSV:** Exportacion masiva de datos lista para Excel/ERP.
-- **Sonidos Industriales:** Confirmacion acustica de operaciones criticas.
+### 🏷️ Digitalización & Exportación
+- **Generador de QR:** Creación de etiquetas únicas para identificación física.
+- **Reportes CSV:** Exportación masiva de datos lista para Excel/ERP.
+- **Sonidos Industriales:** Confirmación acústica de operaciones críticas.
 
 ---
 
-## Stack Tecnologico
+## 🛠️ Stack Tecnológico
 - **Backend:** Python con FastAPI.
 - **Base de Datos:** SQLite con SQLAlchemy (Persistencia garantizada).
 - **Frontend:** HTML5, CSS3 (Glassmorphism), Vanilla JavaScript.
-- **Diseno:** Google Fonts (Outfit & JetBrains Mono).
+- **Diseño:** Google Fonts (Outfit & JetBrains Mono).
 
 ---
 
-## Instalacion y Uso Local
+## 🚀 Instalación y Uso Local
 
 1.  **Clonar el repositorio:**
     ```bash
@@ -66,8 +66,8 @@ Visualizacion dinamica tipo Grid de las estanterias (Posiciones A1-D6).
 
 ---
 
-## Documentacion Adicional
-Para mas detalles sobre el funcionamiento y mantenimiento del sistema, consulta nuestro [Manual Paso a Paso](./MANUAL_PASO_A_PASO.md) y la [Presentacion de Exitos](./PRESENTACION.md).
+## 📖 Documentación Adicional
+Para más detalles sobre el funcionamiento y mantenimiento del sistema, consulta nuestro [Manual Paso a Paso](./MANUAL_PASO_A_PASO.md) y la [Presentación de Éxitos](./PRESENTACION.md).
 
 ---
 *Desarrollado para el sector industrial 4.0 - reberebe-sys*
