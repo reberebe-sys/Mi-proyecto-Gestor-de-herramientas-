@@ -1,4 +1,4 @@
-﻿# 🛠️ Gestor de Herramientas v2.1 Enterprise
+# 🛠️ Gestor de Herramientas v2.1 Enterprise
 
 [![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
 [![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
@@ -46,23 +46,23 @@ Visualización dinámica tipo *Grid* de las estanterías (Posiciones A1-D6).
 ## 🚀 Instalación y Uso Local
 
 1.  **Clonar el repositorio:**
-    ```bash
+    `ash
     git clone https://github.com/reberebe-sys/Mi-proyecto-Gestor-de-herramientas-.git
     cd Mi-proyecto-Gestor-de-herramientas-
-    ```
+    `
 
 2.  **Instalar dependencias:**
-    ```bash
+    `ash
     pip install -r requirements.txt
-    ```
+    `
 
 3.  **Iniciar el servidor:**
-    ```bash
+    `ash
     python main.py
-    ```
+    `
 
 4.  **Acceder:**
-    Abre `http://localhost:8000` en tu navegador.
+    Abre http://localhost:8000 en tu navegador.
 
 ---
 
