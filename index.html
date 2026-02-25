@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -11,7 +11,7 @@
 <body>
     <header>
         <div class="logo">
-            <div class="logo-icon">🛠️</div>
+            <div class="logo-icon">ðŸ› ï¸</div>
             <h1>Gestor de Herramientas</h1>
         </div>
         <div class="status-pills">
@@ -28,21 +28,21 @@
         <div class="dashboard-section">
             <div class="card">
                 <div class="card-title">
-                    <span>📍 Mapa Visual del Almacén</span>
+                    <span>ðŸ“ Mapa Visual del AlmacÃ©n</span>
                 </div>
                 <div class="warehouse-container" id="warehouse-grid">
-                    <!-- Las estanterías se generarán vía JS -->
+                    <!-- Las estanterÃ­as se generarÃ¡n vÃ­a JS -->
                 </div>
                 <div class="warehouse-legend">
-                    <span class="legend-item"><i class="dot success"></i> Óptimo</span>
+                    <span class="legend-item"><i class="dot success"></i> Ã“ptimo</span>
                     <span class="legend-item"><i class="dot warning"></i> Mantenimiento</span>
-                    <span class="legend-item"><i class="dot critical"></i> Crítico</span>
+                    <span class="legend-item"><i class="dot critical"></i> CrÃ­tico</span>
                 </div>
             </div>
 
             <div class="analytics-grid">
                 <div class="card mini">
-                    <div class="card-title">📉 Tendencia de Desgaste</div>
+                    <div class="card-title">ðŸ“‰ Tendencia de Desgaste</div>
                     <div class="chart-box" id="chart-usage-trends">
                         <div class="bar-chart">
                             <div class="bar" style="height: 40%"></div>
@@ -53,24 +53,24 @@
                     </div>
                 </div>
                 <div class="card mini">
-                    <div class="card-title">🏆 Top Herramientas</div>
+                    <div class="card-title">ðŸ† Top Herramientas</div>
                     <ul class="clean-list" id="top-tools-list">
-                        <li>Fresa 10mm (Alta rotación)</li>
+                        <li>Fresa 10mm (Alta rotaciÃ³n)</li>
                     </ul>
                 </div>
             </div>
 
             <div class="card">
                 <div class="card-title">
-                    <span>📋 Inventario de Herramientas</span>
+                    <span>ðŸ“‹ Inventario de Herramientas</span>
                 </div>
                 <div class="form-group" style="margin-bottom: 1.5rem;">
-                    <input type="text" id="search-input" placeholder="🔍 Buscar por nombre o ubicación...">
+                    <input type="text" id="search-input" placeholder="ðŸ” Buscar por nombre o ubicaciÃ³n...">
                 </div>
                 <div class="tool-list" id="inventory-list">
                     <!-- Lista de herramientas -->
                     <p style="color: var(--text-secondary); text-align: center; padding: 2rem;">
-                        No hay herramientas registradas en esta sección.
+                        No hay herramientas registradas en esta secciÃ³n.
                     </p>
                 </div>
             </div>
@@ -79,7 +79,7 @@
         <aside class="sidebar">
             <div class="card">
                 <div class="card-title">
-                    <span>➕ Nueva Herramienta</span>
+                    <span>âž• Nueva Herramienta</span>
                 </div>
                 <form id="tool-form">
                     <div class="form-group">
@@ -87,14 +87,14 @@
                         <input type="text" id="name" placeholder="Ej: Fresa de Carburo 10mm" required>
                     </div>
                     <div class="form-group">
-                        <label for="location">Ubicación (Estantería/Cajón)</label>
+                        <label for="location">UbicaciÃ³n (EstanterÃ­a/CajÃ³n)</label>
                         <select id="location" required>
-                            <option value="">Seleccione ubicación...</option>
+                            <option value="">Seleccione ubicaciÃ³n...</option>
                             <!-- Opciones generadas por JS -->
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="max-uses">Vida Útil (Ciclos/Usos)</label>
+                        <label for="max-uses">Vida Ãštil (Ciclos/Usos)</label>
                         <input type="number" id="max-uses" placeholder="Ej: 500" required>
                     </div>
                     <button type="submit">
@@ -105,10 +105,10 @@
 
             <div class="card" id="detail-panel" style="display: none;">
                 <div class="card-title">
-                    <span>🔍 Detalle de Herramienta</span>
+                    <span>ðŸ” Detalle de Herramienta</span>
                 </div>
                 <div id="tool-detail-content">
-                    <!-- Detalles del ítem seleccionado -->
+                    <!-- Detalles del Ã­tem seleccionado -->
                 </div>
                 <button class="secondary" id="btn-use-tool"
                     style="background: rgba(63, 185, 80, 0.1); border-color: var(--success); color: var(--success);">
@@ -116,7 +116,7 @@
                 </button>
                 <button class="secondary" id="btn-maintenance"
                     style="background: rgba(247, 129, 102, 0.1); border-color: var(--accent-color); color: var(--accent-color);">
-                    🔧 Realizar Mantenimiento (Reset)
+                    ðŸ”§ Realizar Mantenimiento (Reset)
                 </button>
                 <button class="secondary" id="btn-qr"
                     style="background: rgba(58, 134, 255, 0.1); border-color: #3a86ff; color: #3a86ff;">
@@ -129,21 +129,21 @@
             </div>
 
             <div class="card premium-promo">
-                <div class="card-title">💡 Propuesta Industrial</div>
+                <div class="card-title">ðŸ’¡ Propuesta Industrial</div>
                 <p style="font-size: 0.8rem; color: var(--text-secondary); line-height: 1.4;">
-                    Este prototipo reduce los tiempos de búsqueda en un <strong>40%</strong> y previene roturas
-                    mecánicas mediante el <strong>mantenimiento basado en condición</strong>.
+                    Este prototipo reduce los tiempos de bÃºsqueda en un <strong>40%</strong> y previene roturas
+                    mecÃ¡nicas mediante el <strong>mantenimiento basado en condiciÃ³n</strong>.
                 </p>
                 <ul style="font-size: 0.75rem; margin-top: 0.8rem; padding-left: 1rem; color: var(--success);">
-                    <li>Integración con ERP SAP/Odoo</li>
-                    <li>Notificaciones vía Telegram/WhatsApp</li>
-                    <li>Predicción por IA (Machine Learning)</li>
+                    <li>IntegraciÃ³n con ERP SAP/Odoo</li>
+                    <li>Notificaciones vÃ­a Telegram/WhatsApp</li>
+                    <li>PredicciÃ³n por IA (Machine Learning)</li>
                 </ul>
             </div>
 
             <div class="card">
                 <div class="card-title">
-                    <span>⚙️ Diagnóstico</span>
+                    <span>âš™ï¸ DiagnÃ³stico</span>
                 </div>
                 <div
                     style="font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--text-secondary);">
@@ -158,9 +158,9 @@
     <!-- Modal para QR -->
     <div id="qr-modal" class="modal">
         <div class="modal-content card">
-            <h2>🏷️ Etiqueta de Identificación</h2>
+            <h2>ðŸ·ï¸ Etiqueta de IdentificaciÃ³n</h2>
             <div id="qr-container">
-                <!-- Se genera aquí -->
+                <!-- Se genera aquÃ­ -->
                 <div class="mock-qr"></div>
             </div>
             <div class="qr-info">
